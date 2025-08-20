@@ -1,0 +1,6 @@
+packages:
+  - 'resources/js'
+
+onlyBuiltDependencies:
+  - '@tailwindcss/oxide'
+  - esbuild
