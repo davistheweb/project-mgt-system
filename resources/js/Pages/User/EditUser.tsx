@@ -49,7 +49,10 @@ export const EditUser = ({ user }: IUser) => {
                             className="bg-white p-4 shadow sm:rounded-lg sm:p-8 dark:bg-gray-800"
                         >
                             <div className="mt-4">
-                                <InputLabel htmlFor="name" value="Username" />
+                                <InputLabel
+                                    htmlFor="name"
+                                    value="Username"
+                                />
                                 <TextInput
                                     id="name"
                                     type="text"

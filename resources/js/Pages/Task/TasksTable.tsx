@@ -140,9 +140,7 @@ export const TasksTable = ({
                                             e.target.value,
                                         )
                                     }
-                                    onKeyDown={(
-                                        e,
-                                    ) => handleKeyPress('name', e)}
+                                    onKeyDown={(e) => handleKeyPress('name', e)}
                                 />
                             </th>
                             <th className="px-3 py-3">

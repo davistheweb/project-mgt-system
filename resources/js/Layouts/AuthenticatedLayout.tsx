@@ -224,7 +224,10 @@ export default function AuthenticatedLayout({
             )}
 
             <main>{children}</main>
-            <Toaster richColors position="top-left" />
+            <Toaster
+                richColors
+                position="top-left"
+            />
         </div>
     );
 }

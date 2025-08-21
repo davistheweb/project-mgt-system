@@ -111,7 +111,10 @@ export const CreateTask = ({ projects, users }: ICreateUser) => {
                                 />
                             </div>
                             <div className="mt-4">
-                                <InputLabel htmlFor="name" value="Task Name" />
+                                <InputLabel
+                                    htmlFor="name"
+                                    value="Task Name"
+                                />
                                 <TextInput
                                     id="name"
                                     type="text"
@@ -240,7 +243,10 @@ export const CreateTask = ({ projects, users }: ICreateUser) => {
                                 >
                                     <option value="">Select User</option>
                                     {users.data.map((user) => (
-                                        <option value={user.id} key={user.id}>
+                                        <option
+                                            value={user.id}
+                                            key={user.id}
+                                        >
                                             {user.name}
                                         </option>
                                     ))}
